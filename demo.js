@@ -26,7 +26,7 @@ function generateName() {
   const index = Math.floor(Math.random() * names.length);
 
   document.getElementById("displayGreet").innerHTML =
-    "Hello there, <span class='highlight'>" + names[index] + "</span> !";
+    "Hello there, <span class='highlight'> " + names[index] + "</span> !";
 }
 // Example usage:
 generateName();
