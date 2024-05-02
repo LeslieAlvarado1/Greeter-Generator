@@ -1,40 +1,82 @@
-
-.btn-container {
-    text-align: center;
-    border-width: 2px; /* Border width */
-    border-style: solid; /* Border style (e.g., solid, dashed, dotted) */
-    border-color: red; /* Border color */
-    padding: 10%;
-    background-color: rgb(238, 238, 238);
+body {
+  background-color: rgb(225, 220, 220);
 }
+.btn:hover {
+  background-color: white; /* Change this to the desired color */
+  color: black; /* Change text color if needed */
+}
+
 .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    background-color: rgb(225, 220, 220);
-    
+  height: 100vh; /* Full viewport height */
+  border-width: 2px; /* Border width */
+  border-style: solid; /* Border style (e.g., solid, dashed, dotted) */
+  border-color: red; /* Border color */
+  padding: 5%;
+  margin: 8%;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+.highlight {
+  font-weight: bold; /* Set to bold */
+  font-family: "Satisfy", cursive;
+  font-size: 35px;
+  margin-top: 10%;
 }
 
-#displayGreet {
-    margin-top: 20%;
-    font-size: 20px; /* Larger text for visibility */
+/* Functions CSS */
+
+.mathInput-container {
+  margin: 10%;
+}
+
+.center-container2 {
+  height: 100vh; /* Full viewport height */
+  border-width: 2px; /* Border width */
+  border-style: solid; /* Border style (e.g., solid, dashed, dotted) */
+  border-color: red; /* Border color */
+  padding: 5%;
+  margin: 8%;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+}
+
+/* Index CSS */
+
+.center-container {
+  height: 100vh; /* Full viewport height */
+  border-width: 2px; /* Border width */
+  border-style: solid; /* Border style (e.g., solid, dashed, dotted) */
+  border-color: red; /* Border color */
+  padding: 5%;
+  margin: 8%;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.flex-container {
+  display: flex;
+}
+
+.btn-greeter,
+.input-container {
+  flex: 1;
+  margin-right: 10px; /* Optional margin between the two containers */
 }
 
 .greet-text {
-    font-size: 20px; /* Set font size to 20 pixels */
-    font-family: Arial, sans-serif; /* Set font family to Arial or sans-serif */
-    
+  font-size: 20px; /* Set font size to 20 pixels */
+  font-family: Arial, sans-serif; /* Set font family to Arial or sans-serif */
+  margin-top: 15%;
+  text-align: center;
 }
 
-.highlight {
-    font-weight: bold; /* Set to bold */
-    font-style: italic;
-    font-family: "Satisfy", cursive;
-    font-size: 25px;
+.btn-greeter {
+  margin-top: 15%;
 }
-
-.btn:hover {
-    background-color: white; /* Change this to the desired color */
-    color: black; /* Change text color if needed */
+.input-container {
+  margin-top: 4%;
+}
+.results {
+  margin-top: 10px; /* Optional margin between the two rows */
 }
