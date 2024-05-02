@@ -1,0 +1,40 @@
+
+.btn-container {
+    text-align: center;
+    border-width: 2px; /* Border width */
+    border-style: solid; /* Border style (e.g., solid, dashed, dotted) */
+    border-color: red; /* Border color */
+    padding: 10%;
+    background-color: rgb(238, 238, 238);
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(225, 220, 220);
+    
+}
+
+#displayGreet {
+    margin-top: 20%;
+    font-size: 20px; /* Larger text for visibility */
+}
+
+.greet-text {
+    font-size: 20px; /* Set font size to 20 pixels */
+    font-family: Arial, sans-serif; /* Set font family to Arial or sans-serif */
+    
+}
+
+.highlight {
+    font-weight: bold; /* Set to bold */
+    font-style: italic;
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: white; /* Change this to the desired color */
+    color: black; /* Change text color if needed */
+}
