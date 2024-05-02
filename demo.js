@@ -19,13 +19,19 @@ function generateName() {
     "Sabrina Robles",
     "Abdikadir Samatar",
     "Daniel Solar",
-    "Brett Spokes"
+    "Brett Spokes",
   ];
 
   // Randomly select a name
   const index = Math.floor(Math.random() * names.length);
 
-  document.getElementById("displayGreet").innerHTML = "Hello there, <span class='highlight'>" + names[index] + "</span> !";
+  document.getElementById("displayGreet").innerHTML =
+    "Hello there, <span class='highlight'>" + names[index] + "</span> !";
 }
 // Example usage:
 generateName();
+
+function sayMyName(secretMessage) {
+  let myName = document.getElementById("myName").value;
+  alert(`Hi ${myName}, ${secretMessage}!`);
+}
